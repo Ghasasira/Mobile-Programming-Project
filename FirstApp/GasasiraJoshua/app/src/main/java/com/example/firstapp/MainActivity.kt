@@ -9,6 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.firstapp.ui.theme.FirstAppTheme
 
@@ -18,11 +19,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             FirstAppTheme {
                 // A surface container using the 'background' color from the theme
+                //val viewModel by viewModels<CalcLogic>()
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = Color.Gray
+                    //MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Gasasira")
+                    //Greeting("Gasasira")
+                    CalcFace()
                 }
             }
         }
@@ -37,10 +41,4 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    FirstAppTheme {
-        Greeting("Android")
-    }
-}
+

@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.firstapp'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.firstapp"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -63,4 +63,12 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+    // https://mvnrepository.com/artifact/androidx.compose.foundation/foundation
+    implementation 'androidx.compose.foundation:foundation:1.6.1'
+
+    // https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-viewmodel-compose
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0'
+
+
 }

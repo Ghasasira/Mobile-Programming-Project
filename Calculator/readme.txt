@@ -1,0 +1,4 @@
+An Android calculator built with Jetpack Compose, it's a user-friendly application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. 
+It features a sleek and intuitive interface created using Jetpack Compose, Google's modern toolkit for building native Android UI. 
+Users can input numbers and select the desired operation through buttons and the calculator instantly computes the result, displaying it on the screen in real-time.
+The app ensures accuracy and efficiency in calculations, providing a convenient tool for everyday mathematical tasks on Android devices.
