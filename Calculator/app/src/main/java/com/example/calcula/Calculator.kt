@@ -1,4 +1,4 @@
-package com.example.jetpacktwo
+package com.example.calcula
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -23,9 +23,9 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
-import com.example.jetpacktwo.ui.theme.blue1
-import com.example.jetpacktwo.ui.theme.blue2
-import com.example.jetpacktwo.ui.theme.green1
+import com.example.calcula.ui.theme.blue1
+import com.example.calcula.ui.theme.blue2
+import com.example.calcula.ui.theme.green1
 
 @Composable
 fun Calculator(

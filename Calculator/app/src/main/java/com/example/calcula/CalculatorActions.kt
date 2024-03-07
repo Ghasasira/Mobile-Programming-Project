@@ -1,4 +1,4 @@
-package com.example.jetpacktwo
+package com.example.calcula
 
 sealed class CalculatorActions {
     data class Number(val value: Int) : CalculatorActions()
