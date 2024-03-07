@@ -1,4 +1,4 @@
-package com.example.jetpacktwo
+package com.example.calcula
 
 data class CalculatorState(
     val number1 : String = "",

@@ -1,4 +1,4 @@
-package com.example.jetpacktwo
+package com.example.calcula
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

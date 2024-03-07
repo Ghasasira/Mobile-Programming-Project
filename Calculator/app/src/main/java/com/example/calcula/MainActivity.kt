@@ -1,4 +1,4 @@
-package com.example.jetpacktwo
+package com.example.calcula
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,13 +10,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.jetpacktwo.ui.theme.JetpackTwoTheme
+import com.example.calcula.ui.theme.CalculaTheme
+import com.example.calcula.ui.theme.CalculaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            JetpackTwoTheme {
+            CalculaTheme{
                 val viewMode = viewModel<CalcluatorViewModel>()
                 val state = viewMode.state
                 val buttonSpacing = 8.dp
